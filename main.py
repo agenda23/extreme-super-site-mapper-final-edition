@@ -14,6 +14,12 @@ def main():
     parser.add_argument("--max-depth", type=int, help="Maximum depth to crawl")
     parser.add_argument("--excel", action="store_true", help="Output as Excel in addition to CSV")
     parser.add_argument("--include-params", action="store_true", help="Include all URL variations with query parameters (default is to skip them)")
+    parser.add_argument(
+        "--traversal",
+        choices=["dfs", "bfs"],
+        default="dfs",
+        help="Traversal strategy: dfs (depth-first, default) or bfs (breadth-first)",
+    )
 
     args = parser.parse_args()
 
@@ -22,7 +28,8 @@ def main():
         allowed_subdomains=args.subdomains,
         delay_range=(args.delay_min, args.delay_max),
         max_depth=args.max_depth,
-        unique_path=not args.include_params
+        unique_path=not args.include_params,
+        traversal=args.traversal,
     )
 
     # 出力ファイル名の決定（指定がない場合はドメイン名を使用）

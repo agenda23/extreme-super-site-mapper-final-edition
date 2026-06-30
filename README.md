@@ -30,6 +30,7 @@ uv run main.py [開始URL] [オプション]
 - `--max-depth N`: 最大巡回深度の指定
 - `--delay-min N`, `--delay-max N`: リクエスト間の最小/最大待機時間（秒）
 - `--include-params`: クエリパラメータが異なるURLもすべて含める（デフォルトはフィルタされる）
+- `--traversal dfs|bfs`: 巡回方式の指定（デフォルト: `dfs`）。`bfs` は開始URLからの最短リンク数に近い深度で巡回します
 
 ## ライセンス
 MIT
