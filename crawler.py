@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 import time
 import random
 from collections import deque
+from http.cookiejar import MozillaCookieJar
+from pathlib import Path
 from urllib.parse import urljoin, urlparse
 import logging
 
@@ -19,6 +21,7 @@ class Crawler:
         max_depth=None,
         unique_path=True,
         traversal="dfs",
+        cookie_file=None,
         user_agent="SitemapGenerator/1.0 (+https://github.com/koguchimasataka/extreme-super-site-mapper-final-edition)",
     ):
         self.base_url = base_url
@@ -32,7 +35,10 @@ class Crawler:
         self.max_depth = max_depth
         self.unique_path = unique_path
         self.traversal = traversal
-        self.headers = {'User-Agent': user_agent}
+        self.session = requests.Session()
+        self.session.headers.update({'User-Agent': user_agent})
+        if cookie_file:
+            self._load_netscape_cookies(cookie_file)
 
         self.visited_urls = set()
         self.visited_paths = set()
@@ -58,6 +64,16 @@ class Crawler:
         if parsed.scheme not in ('http', 'https'):
             return False
         return True
+
+    def _load_netscape_cookies(self, cookie_file):
+        path = Path(cookie_file)
+        if not path.is_file():
+            raise FileNotFoundError(f"Cookie file not found: {cookie_file}")
+
+        jar = MozillaCookieJar(str(path))
+        jar.load(ignore_discard=True, ignore_expires=True)
+        self.session.cookies.update(jar)
+        logger.info(f"Loaded {len(jar)} cookie(s) from {cookie_file}")
 
     def _path_only(self, url):
         parsed = urlparse(url)
@@ -89,7 +105,7 @@ class Crawler:
         time.sleep(random.uniform(*self.delay_range))
 
         try:
-            response = requests.get(url, headers=self.headers, timeout=10)
+            response = self.session.get(url, timeout=10)
             status_code = response.status_code
             response.encoding = response.apparent_encoding
 

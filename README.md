@@ -9,6 +9,7 @@
 - **ドメイン制御:** 同一ドメインおよび許可されたサブドメインのみを巡回します。
 - **レポート出力:** CSVおよびExcel形式での出力に対応しています。
 - **巡回方式の選択:** DFS（深さ優先・デフォルト）または BFS（幅優先）を `--traversal` で指定可能です。
+- **Cookie 認証:** Netscape 形式の `cookies.txt`（[Get cookies.txt LOCALLY](https://github.com/kairi003/Get-cookies.txt-LOCALLY) 等）を `--cookies` で読み込み、要ログインページに対応します。
 
 ## 動作要件
 - Python 3.9+
@@ -32,6 +33,16 @@ uv run main.py [開始URL] [オプション]
 - `--delay-min N`, `--delay-max N`: リクエスト間の最小/最大待機時間（秒）
 - `--include-params`: クエリパラメータが異なるURLもすべて含める（デフォルトはフィルタされる）
 - `--traversal dfs|bfs`: 巡回方式の指定（デフォルト: `dfs`）。`bfs` は開始URLからの最短リンク数に近い深度で巡回します
+- `--cookies FILE`: Netscape 形式の Cookie ファイル（Get cookies.txt LOCALLY のエクスポート等）
+
+### Cookie ファイルの取り扱い
+
+`cookies.txt` はログインセッションを含むため、リポジトリには含めません。`.gitignore` で除外済みです。プロジェクトルートなど任意のパスに置き、`--cookies` でパスを指定してください。
+
+```bash
+# 例: ルートに cookies.txt を置く場合
+uv run main.py https://example.com/mypage --cookies ./cookies.txt
+```
 
 ## ライセンス
 MIT

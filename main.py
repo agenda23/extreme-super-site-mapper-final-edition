@@ -20,6 +20,11 @@ def main():
         default="dfs",
         help="Traversal strategy: dfs (depth-first, default) or bfs (breadth-first)",
     )
+    parser.add_argument(
+        "--cookies",
+        metavar="FILE",
+        help="Netscape-format cookies.txt (e.g. exported by Get cookies.txt LOCALLY)",
+    )
 
     args = parser.parse_args()
 
@@ -30,6 +35,7 @@ def main():
         max_depth=args.max_depth,
         unique_path=not args.include_params,
         traversal=args.traversal,
+        cookie_file=args.cookies,
     )
 
     # 出力ファイル名の決定（指定がない場合はドメイン名を使用）

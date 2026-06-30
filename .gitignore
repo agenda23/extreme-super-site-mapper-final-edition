@@ -70,6 +70,11 @@ web_modules/
 .env.*
 !.env.example
 
+# Authentication cookies (never commit)
+cookies.txt
+**/cookies.txt
+*.cookies.txt
+
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache
