@@ -1,0 +1,58 @@
+﻿url,title,status,depth
+https://voi.0101.co.jp/voi/,�y�����z�}���C�̃l�b�g�ʔ� | �G�|�X�J�[�h�ł��ł��z��������,200,0
+https://voi.0101.co.jp/voi/sp/,【公式】マルイのネット通販 | エポスカードでいつでも配送料無料,200,1
+https://voi.0101.co.jp/voi/sysorder/myPageTop,���O�C�� | �}���C�E�F�u�`���l��,200,2
+https://voi.0101.co.jp/voi/passwordinquiry?action=myPage,ID�A�p�X���[�h�����Y��̕� | �}���C�E�F�u�`���l��,200,3
+https://voi.0101.co.jp/voi/userIdInquiryAuthEntrance?action=myPage,�}���C�E�F�u�`���l��ID�̒ʒm�b�}���C�E�F�u�`���l��,200,4
+https://voi.0101.co.jp/voi/login?action=myPage,���O�C�� | �}���C�E�F�u�`���l��,200,5
+https://voi.0101.co.jp/voi/socialAuth/auth?action=myPage&socialProvider=01&autoLoginFlag=0&captcha=,LINE Login,200,6
+https://voi.0101.co.jp/voi/socialAuth/auth?action=myPage&socialProvider=02&autoLoginFlag=0&captcha=,ログイン - Yahoo! JAPAN,200,6
+https://voi.0101.co.jp/voi/socialAuth/auth?action=myPage&socialProvider=04&autoLoginFlag=0&captcha=,Sign in to Apple Account,200,6
+https://voi.0101.co.jp/voi/simpleUserRegistration.do?action=simple,�}���C�E�F�u�`���l��,200,6
+https://voi.0101.co.jp/voi/wishlist/showWishList,���O�C�� | �}���C�E�F�u�`���l��,200,7
+https://voi.0101.co.jp/voi/passwordinquiry?action=showWishList,ID�A�p�X���[�h�����Y��̕� | �}���C�E�F�u�`���l��,200,8
+https://voi.0101.co.jp/voi/userIdInquiryAuthEntrance?action=showWishList,�}���C�E�F�u�`���l��ID�̒ʒm�b�}���C�E�F�u�`���l��,200,9
+https://voi.0101.co.jp/voi/login?action=showWishList,���O�C�� | �}���C�E�F�u�`���l��,200,10
+https://voi.0101.co.jp/voi/socialAuth/auth?action=showWishList&socialProvider=01&autoLoginFlag=0&captcha=,LINE Login,200,11
+https://voi.0101.co.jp/voi/socialAuth/auth?action=showWishList&socialProvider=02&autoLoginFlag=0&captcha=,ログイン - Yahoo! JAPAN,200,11
+https://voi.0101.co.jp/voi/socialAuth/auth?action=showWishList&socialProvider=04&autoLoginFlag=0&captcha=,Sign in to Apple Account,200,11
+https://voi.0101.co.jp/voi/content/01/sp/contents/information/news/article/161115.html,ã­ã°ã¤ã³IDããã³ãã¹ã¯ã¼ãã®åãæ±ãã«é¢ãããæ³¨æã¨ãé¡ã  | ãã¡ãã·ã§ã³éè²© ãã«ã¤ã¦ã§ããã£ãã«,200,11
+https://voi.0101.co.jp/voi/index.jsp,�y�����z�}���C�̃l�b�g�ʔ� | �G�|�X�J�[�h�ł��ł��z��������,200,12
+https://voi.0101.co.jp/voi/webcatalog/getShoppingCart,�}���C�E�F�u�`���l��,200,13
+https://voi.0101.co.jp/voi/content/01/sp/epos/index.html?intid=sp_cart_epos_entry2_test221008,ãå
+¬å¼ãã¨ãã¹ã«ã¼ããç³è¾¼ã¿ã¯ãã¡ãâªå
+¥ä¼éã»å¹´ä¼è²»ç¡æâ«  | ãã«ã¤ã®ãã¡ãã·ã§ã³éè²©,200,14
+https://voi.0101.co.jp/voi/content/01/sp/contents/webshop/character-goods/index.html,ãã«ã¤ãã¢ãã¡ ONLINE SHOPï½ã¢ãã¡ã»ã²ã¼ã ã»ã­ã£ã©ã¯ã¿ã¼ã°ããºã®éè²©  | ãã«ã¤ã¦ã§ããã£ãã«,200,15
+https://voi.0101.co.jp/voi/content/01/sp/item/index.html,ã«ãã´ãªã¼ããããã âãã«ã¤ã¦ã§ããã£ãã«,200,16
+https://voi.0101.co.jp/voi/search/searchShopTop,マルイウェブチャネル,200,17
+https://voi.0101.co.jp/voi/content/01/sp/contents/webshop/specialfeature/recommend/ranking.html,äººæ°ã¢ã¤ãã ã©ã³ã­ã³ã°  | ãã«ã¤ã®ãããéè²© ãã«ã¤ã¦ã§ããã£ãã«,200,18
+https://voi.0101.co.jp/voi/webCouponLp/showWebCouponLp,マルイウェブチャネル,200,19
+https://voi.0101.co.jp/voi/content/01/sp/contents/webshop/sale-l/index.html,ã»ã¼ã«æ
+å ±  | ãã¡ãã·ã§ã³éè²© ãã«ã¤ã¦ã§ããã£ãã«,200,20
+https://voi.0101.co.jp/voi/coordinate/coordinateList?way=3,�R�[�f�B�l�[�g�b�}���C�E�F�u�`���l��,200,21
+https://voi.0101.co.jp/voi/content/01/sp/event/event_information/index.html,ã¤ãã³ãæ
+å ±ãï½1äººã²ã¨ãã®å¥½ããå¿æ´ãã¾ãï½  | ãã«ã¤ã¦ã§ããã£ãã«,200,22
+https://voi.0101.co.jp/voi/content/01/sp/contents/webshop/specialfeature/index.html,ç¹éããããã  | ãã¡ãã·ã§ã³éè²© ãã«ã¤ã¦ã§ããã£ãã«,200,23
+https://voi.0101.co.jp/voi/content/01/sp/topics/column/index.html,ã³ã©ã ããæ¢ã  | ãã¡ãã·ã§ã³éè²© ãã«ã¤ã¦ã§ããã£ãã«,200,24
+https://voi.0101.co.jp/voi/search/,マルイウェブチャネル,200,25
+https://voi.0101.co.jp/voi/content/01/sp/guide/index.html,ãå©ç¨ã¬ã¤ãã»ãã«ã âãã«ã¤ã¦ã§ããã£ãã«,200,26
+https://voi.0101.co.jp/voi/content/01/sp/guide/firstvisit/index.html,åãã¦ã®æ¹ã¸ | ãã«ã¤ã¦ã§ããã£ãã« ãã«ã¤,200,27
+https://voi.0101.co.jp/voi/content/01/sp/contents/information/news/index.html,ãå
+¬å¼ããã«ã¤ã¦ã§ããã£ãã«ããã®ãç¥ãã  | ãã«ã¤ã®ãã¡ãã·ã§ã³éè²©,200,28
+https://voi.0101.co.jp/voi/content/01/sp/cosme_beauty/index.html,ã³ã¹ã¡ã»ãã¥ã¼ãã£ã¼ã¢ã¤ãã ã®éè²©  | ãã«ã¤ã¦ã§ããã£ãã«,200,29
+https://voi.0101.co.jp/voi/content/01/sp/koreaju/index.html,éå½ã³ã¹ã¡ã»éå½åç²§åã®éè²©ãªãã³ãªã¢ã¼ã¸ã¥ï¼KOREAJUï¼ ï½ãã«ã¤ã¦ã§ããã£ãã«,200,30
+https://voi.0101.co.jp/voi/ladiestop/,���f�B�[�X�t�@�b�V�����̒ʔ� |�}���C�E�F�u�`���l��,200,31
+https://voi.0101.co.jp/voi/menstop/,�����Y�t�@�b�V�����̒ʔ� |�}���C�E�F�u�`���l��,200,32
+https://voi.0101.co.jp/voi/kids-baby/,�q�����E�q���C�i�L�b�Y���x�r�[�j�̒ʔ� | �}���C�E�F�u�`���l��,200,33
+https://voi.0101.co.jp/voi/search/searchShopTop.jsp?figure=k&intid=ktop_left,マルイウェブチャネル,200,34
+https://voi.0101.co.jp/voi/search/searchShopTop?figure=l,マルイウェブチャネル,200,35
+https://voi.0101.co.jp/voi/search/searchShopTop?figure=m,マルイウェブチャネル,200,36
+https://voi.0101.co.jp/voi/search/searchShopTop?figure=k,マルイウェブチャネル,200,37
+https://voi.0101.co.jp/voi/content/01/pc/other/mailmagazine/index.html,ã¡ã¼ã«ãã¬ã¸ã³ç»é²  | ãã¡ãã·ã§ã³éè²© ãã«ã¤ã¦ã§ããã£ãã«,200,38
+https://voi.0101.co.jp/voi/editRegistration1.do?action=editRegist,���O�C�� | �}���C�E�F�u�`���l��,200,39
+https://voi.0101.co.jp/voi/passwordinquiry?action=editRegist,ID�A�p�X���[�h�����Y��̕� | �}���C�E�F�u�`���l��,200,40
+https://voi.0101.co.jp/voi/userIdInquiryAuthEntrance?action=editRegist,�}���C�E�F�u�`���l��ID�̒ʒm�b�}���C�E�F�u�`���l��,200,41
+https://voi.0101.co.jp/voi/login?action=editRegist,���O�C�� | �}���C�E�F�u�`���l��,200,42
+https://voi.0101.co.jp/voi/epos/link8.jsp,ã­ã°ã¤ã³ | ãã«ã¤ã¦ã§ããã£ãã«,200,43
+https://voi.0101.co.jp/voi/guide/userguide/security,ãå©ç¨ã¬ã¤ãã»ãã«ã â ã»ã­ã¥ãªãã£ã«ã¤ãã¦ âãã«ã¤ã¦ã§ããã£ãã«,200,44
+https://voi.0101.co.jp/voi/content/01/sp/guide/site.html,ãå©ç¨ã¬ã¤ãã»ãã«ã â ãµã¤ãã«ã¤ãã¦ âãã«ã¤ã¦ã§ããã£ãã«,200,45

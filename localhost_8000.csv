@@ -1,0 +1,6 @@
+﻿url,title,status,depth
+http://localhost:8000,Test Home,200,0
+http://localhost:8000/page1.html,Test Page 1,200,1
+http://localhost:8000/index.html,Test Home,200,2
+http://localhost:8000/page2.html,Test Page 2,200,3
+http://localhost:8000/sub/page3.html,Test Page 3,200,2
